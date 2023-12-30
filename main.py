@@ -111,4 +111,4 @@ if __name__ == '__main__':
         os.makedirs("words/" + words)
         for i in words:
             url_emoji = domain + "/"+i
-            download(i,url_emoji)
+            download(i, url_emoji)
